@@ -1,0 +1,20 @@
+{
+  "name": "Link to GMail",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": { 
+    "16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "description": "",
+  "browser_action": {
+    "default_icon": "images/gmail.png"
+  },
+  "permissions": [
+    
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
